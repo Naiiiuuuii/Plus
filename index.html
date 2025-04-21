@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>دورة بلس</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">📘 دورة بلس</div>
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">الدورات</a></li>
+            <li><a href="#">خطتي التعليمية</a></li>
+            <li><a href="#">عن المنصة</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+        </ul>
+    </nav>
+    <div class="login-btn">
+        <button onclick="showSignup()">تسجيل الدخول / إنشاء حساب</button>
+    </div>
+</header>
+
+<section class="welcome">
+    <h1>مرحبًا بك في “دورة بلس”!</h1>
+    <p>منصة إلكترونية تساعدك على اختيار الدورات التدريبية التي تناسب أهدافك، وتخصيص خطة تعليمية مبنية على مهاراتك واهتماماتك.</p>
+</section>
+
+<section id="signupForm" class="signup-form" style="display:none;">
+    <h2>إنشاء حساب</h2>
+    <form>
+        <input type="text" placeholder="الاسم الكامل" required>
+        <select required>
+            <option value="">الجنس</option>
+            <option>ذكر</option>
+            <option>أنثى</option>
+        </select>
+        <input type="number" placeholder="العمر" min="10" max="100" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <input type="password" placeholder="كلمة المرور" required>
+        <button type="submit">ابدأ الآن</button>
+    </form>
+    <p class="note">* نستخدم الجنس والعمر لتخصيص توصيات الدورات بشكل أفضل.</p>
+</section>
+
+<section class="dashboard">
+    <h2>لوحة التحكم</h2>
+    <ul>
+        <li>📚 تصفح الدورات</li>
+        <li>🎯 دوراتي الحالية</li>
+        <li>🧠 خطة التعلم المخصصة</li>
+        <li>❤️ المفضلة</li>
+        <li>💳 اشتراك شهري</li>
+        <li>🛒 دفع لكل دورة</li>
+    </ul>
+</section>
+
+<section class="services">
+    <h2>الخدمات المقدمة</h2>
+    <div class="service-icons">
+        <div>🤖 خطة تعلم بالذكاء الاصطناعي</div>
+        <div>👨‍🏫 متابعة المدربين</div>
+        <div>📜 شهادة معتمدة</div>
+        <div>🎥 محتوى متنوع</div>
+        <div>💬 منصة نقاش</div>
+    </div>
+</section>
+
+<section class="audience">
+    <h2>الفئات المستهدفة</h2>
+    <div class="cards">
+        <div>🎓 طلاب الثانوية العامة</div>
+        <div>🏫 الطلاب الجامعيون</div>
+        <div>💼 الخريجون الجدد</div>
+    </div>
+</section>
+
+<section class="delivery">
+    <h2>خيارات تسليم المحتوى</h2>
+    <ul>
+        <li>📺 دورات مسجلة (On-Demand)</li>
+        <li>🎙️ دورات مباشرة (Live)</li>
+        <li>🏫 ورش حضورية</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 دورة بلس - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
